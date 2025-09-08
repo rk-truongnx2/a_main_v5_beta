@@ -1,0 +1,23 @@
+{
+  "name": "a",
+  "version": "9.18.0",
+  "description": "a core platform",
+  "private": true,
+  "main": "server.js",
+  "peerDependencies": {
+    "mssql": "^3.3.0",
+    "mysql": "^2.18.1",
+    "oracledb": "^4.2.0"
+  },
+  "peerDependenciesMeta": {
+    "oracledb": {
+      "optional": true
+    },
+    "mssql": {
+      "optional": true
+    },
+    "mysql": {
+      "optional": true
+    }
+  }
+}
